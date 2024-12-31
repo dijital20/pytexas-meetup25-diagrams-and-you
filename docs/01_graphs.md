@@ -50,7 +50,7 @@ graphs are developed when trying to brainstorm an idea.
             Node graphs
                 State diagrams
                 Flowcharts
-                Workflow diagrams
+                    Workflow diagrams
                 Data Flow diagrams
             Class diagrams
             Sequence diagrams
