@@ -8,3 +8,6 @@ can be vulnerable, so these transitions are scrutinized for how data can be atta
 Data flow diagrams are useful for **visualizing the components of a system and how data flows, so that you can find 
 threats to the system and mitigate them**.
 
+???+ example "A simple mobile login"
+
+    ![data flow diagram](assets/dfd.png)

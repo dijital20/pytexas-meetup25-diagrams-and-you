@@ -3,8 +3,8 @@
 Congratulations! You've made it to the first diagram that isn't a node graph variation! How's it feel?
 
 A sequence diagram is a special type of diagram that **illustrates a sequence of actions between 2 or more entities in a
-system**. For flows that are primarily linear and involving 8 entities or less, sequence diagrams are more useful than
-flowcharts.
+system**. It does this by assigning each entity a column, and then draw lines between columns to illustrate actions 
+between those entities.
 
 ???+ example "How to order a Burger"
 
@@ -29,4 +29,5 @@ flowcharts.
         Cashier ->> Me: *Hands burger*
     ```
 
-Sequence diagrams can also contain exception, decision, and repeat bits.
+For flows that are primarily linear and involving 8 entities or less, sequence diagrams are more useful than
+flowcharts. Sequence diagrams can also contain loop, exception, and decision bits.
