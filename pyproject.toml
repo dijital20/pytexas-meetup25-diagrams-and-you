@@ -8,4 +8,6 @@ dependencies = [
     "mkdocs>=1.6.1",
     "mkdocs-material>=9.5.49",
     "mkdocs-mermaid2-plugin>=1.2.1",
+    "pydot>=3.0.3",
+    "pytm>=1.3.1",
 ]

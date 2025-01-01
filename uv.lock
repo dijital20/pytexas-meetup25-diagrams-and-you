@@ -318,6 +318,27 @@ wheels = [
 ]
 
 [[package]]
+name = "pydal"
+version = "20241204.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e8/78/7ddf9aacea5cd2e63423d278d26465c63ecdae87cf1c503d8fc1f7dfcfa5/pydal-20241204.1.tar.gz", hash = "sha256:1ba1f9e528b985e234f5b3acfd9d549998b44f7ed7ae747b9e8d4ad3047bf511", size = 623731 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d0/de/30f6ee6c8f333a00969fb4d5cd3c8cb8ca69feeeb2518d69b69d9bbe732b/pydal-20241204.1-py2.py3-none-any.whl", hash = "sha256:416f06de17ab0a5340e11195a0583abfe484eceb067cd3ab92208d3dc5aa7683", size = 246873 },
+]
+
+[[package]]
+name = "pydot"
+version = "3.0.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyparsing" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/bf/b8/500a772825c7ca87e4fd69c3bd6740e3375d6792a7065dd92759249f223d/pydot-3.0.3.tar.gz", hash = "sha256:5e009d97b2fff92b7a88f09ec1fd5b163f07f3b10469c927d362471d6faa0d50", size = 168086 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3e/1b/ef569ac44598b6b24bc0f80d5ac4f811af59d3f0d0d23b0216e014c0ec33/pydot-3.0.3-py3-none-any.whl", hash = "sha256:9b0b3081e0bd362d0c61148da10eb1281ec80089b02a28cf06f9093843986f3d", size = 35784 },
+]
+
+[[package]]
 name = "pygments"
 version = "2.18.0"
 source = { registry = "https://pypi.org/simple" }
@@ -340,6 +361,15 @@ wheels = [
 ]
 
 [[package]]
+name = "pyparsing"
+version = "3.2.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/8b/1a/3544f4f299a47911c2ab3710f534e52fea62a633c96806995da5d25be4b2/pyparsing-3.2.1.tar.gz", hash = "sha256:61980854fd66de3a90028d679a954d5f2623e83144b5afe5ee86f43d762e5f0a", size = 1067694 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1c/a7/c8a2d361bf89c0d9577c934ebb7421b25dc84bf3a8e3ac0a40aed9acc547/pyparsing-3.2.1-py3-none-any.whl", hash = "sha256:506ff4f4386c4cec0590ec19e6302d3aedb992fdc02c761e90416f158dacf8e1", size = 107716 },
+]
+
+[[package]]
 name = "pytexas-meetup25-diagrams-and-you"
 version = "0.1.0"
 source = { virtual = "." }
@@ -347,6 +377,8 @@ dependencies = [
     { name = "mkdocs" },
     { name = "mkdocs-material" },
     { name = "mkdocs-mermaid2-plugin" },
+    { name = "pydot" },
+    { name = "pytm" },
 ]
 
 [package.metadata]
@@ -354,6 +386,8 @@ requires-dist = [
     { name = "mkdocs", specifier = ">=1.6.1" },
     { name = "mkdocs-material", specifier = ">=9.5.49" },
     { name = "mkdocs-mermaid2-plugin", specifier = ">=1.2.1" },
+    { name = "pydot", specifier = ">=3.0.3" },
+    { name = "pytm", specifier = ">=1.3.1" },
 ]
 
 [[package]]
@@ -366,6 +400,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/66/c0/0c8b6ad9f17a802ee498c46e004a0eb49bc148f2fd230864601a86dcf6db/python-dateutil-2.9.0.post0.tar.gz", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3", size = 342432 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl", hash = "sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427", size = 229892 },
+]
+
+[[package]]
+name = "pytm"
+version = "1.3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pydal" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/51/30/3da878d245e3c25201f7de922415f59334106265e111ec78d8ce5ec939fa/pytm-1.3.1.tar.gz", hash = "sha256:f547a05146810eefe856e8c3c0a4c584d435d8681ba9c9d1b105d64be81069a6", size = 136192 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f6/60/d094d80e8e08cfa460c66714aaa29ccceee08240e0b8cce099f2565ad3e8/pytm-1.3.1-py3-none-any.whl", hash = "sha256:dea906d772d4d151b7211d22255d82a723127283a93fe7fb6b86a790aae2c777", size = 155956 },
 ]
 
 [[package]]
