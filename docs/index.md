@@ -2,17 +2,17 @@
 
 ## Why do I care?
 
-Whether you are a professional software developer or just a hobbyist using Python to create your own scripts, being able
-to communicate your ideas is a critical skill. Whether you are trying to collaborate with others on the development
-or support of your creations, or sending yourself a "message in a bottle" so that you can someday understand why you
-did that thing you did, communication is key.
+Whether you are a professional software developer or just a hobbyist using Python to create your own scripts, **being 
+able to communicate your ideas is a critical skill**. Whether you are trying to collaborate with others on the 
+development or support of your creations, or sending yourself a "message in a bottle" so that you can someday understand 
+why you did that thing you did, communication is key.
 
 !!! info "Wisdom of Josh #32"
 
     *The you right now is a different person than the you six months ago and the you six months from now.*
 
-Humans are visual creatures, and a picture truly is worth a thousand words. I've seen a well placed diagram end an hour
-of round-and-round conversation. Diagrams are one really honking good way to express complicated ideas.
+**Humans are visual creatures**, and a picture truly is worth a thousand words. I've seen a well placed diagram end an 
+hour of round-and-round conversation. Diagrams are one really honking good way to express complicated ideas.
 
 !!! info "Wisdom of Josh #417"
 

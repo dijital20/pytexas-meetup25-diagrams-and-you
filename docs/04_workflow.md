@@ -26,5 +26,5 @@ some task. Workflow diagrams are useful for understanding **user interaction wor
         enterFileName --> pressCtrlEnter --> savedDocument
     ```
 
-In this case, the difference between this and a flowchart or a state diagram are more abstract. The goal is not so much
+In this case, the difference between this and a flowchart or a state diagram is more abstract. The goal is not so much
 to define the minutae of a program flow, but instead to chart the behavior of a program based on the user.

@@ -1,8 +1,8 @@
 # Flowcharts
 
-Flowcharts are also special node graphs. In Flowcharts, node shapes allow nodes to represent different elements of logic
-such as procedures, loops, data stores, decisions, terminators, and more. Edges help related these elements to each 
-other. Because of this, flowcharts are excellent for ***detailing logic in a procedure***.
+Flowcharts are also special [node graphs](01_graphs.md). In Flowcharts, node shapes allow nodes to represent different 
+elements of logic such as procedures, loops, data stores, decisions, terminators, and more. Edges help relate these 
+elements to each other. Because of this, flowcharts are excellent for ***detailing logic in a procedure***.
 
 ???+ example "Let's get paged data from a REST API"
 
@@ -49,7 +49,7 @@ as terminators (start and end nodes), parallelogram nodes for storing data, rect
 double-barred rectangular nodes for more complex procedures that are defined elsewhere. You can follow the nodes from
 "Start" to "Return result list" to see the branches of logic.
 
-???+ note "Shape cheat sheet"
+??? note "Shape cheat sheet"
 
     ```mermaid
     flowchart LR
