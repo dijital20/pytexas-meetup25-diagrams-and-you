@@ -1,4 +1,4 @@
-# Graphs
+# Graphs (aka Node Graphs)
 
 Graphs consist of **Nodes** and **Edges**. Nodes represent things... ideas, people, steps... and the edges relate the
 nodes to each other. 
@@ -15,7 +15,7 @@ nodes to each other.
 
 As you can guess, graphs are very good for ***showing relationships***.
 
-???+ example "Relationships, Star Wars style"
+??? example "Relationships, Star Wars style"
 
     ```mermaid
     graph TD
@@ -42,7 +42,7 @@ itself) or closed (nodes can lead back to themselves).
 One of the most common kinds of graphs that we learn early on, is the mind map (otherwise called webbing). These node
 graphs are developed when trying to brainstorm an idea.
 
-???+ example "Mindmapping this presentation, how meta..."
+??? example "Mindmapping this presentation, how meta..."
 
     ```mermaid
     mindmap

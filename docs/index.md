@@ -29,3 +29,8 @@ but over the course of my career, I've also been a **Test Automation Architect a
 like to say that I have "circle-strafed the software development lifecycle".
 
 When I am not nerding it up, I enjoy coffee, movies, improv comedy, beer, and gaming.
+
+<div class="grid cards" markdown>
+- [:fontawesome-brands-mastodon: @diji@mastodon.social](https://mastodon.social/@diji) 
+- [:fontawesome-brands-github: @dijital20](https://github.com/dijital20)
+</div>

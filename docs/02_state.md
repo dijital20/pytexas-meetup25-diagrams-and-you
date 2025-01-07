@@ -25,7 +25,7 @@ Here's an example of the states of water.
 
 Diagrams can get more complex. Here's a coffee pot:
 
-???+ example "Making coffee"
+??? example "Making coffee"
 
     ```mermaid
     stateDiagram-v2
@@ -52,7 +52,7 @@ Diagrams can get more complex. Here's a coffee pot:
 
 And here's a more complex auto-update mechanism:
 
-???+ example "Imagine an auto-update mechanism..."
+??? example "Imagine an auto-update mechanism..."
 
     ```mermaid
     stateDiagram-v2
