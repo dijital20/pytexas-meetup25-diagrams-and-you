@@ -4,15 +4,16 @@ site_author: Josh Schneider
 theme:
   name: material
   features:
+    - toc.integrate
     - navigation.footer
   palette:
     - scheme: default
-      primary: indigo
+      primary: blue grey
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
+      primary: blue grey
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -20,6 +21,7 @@ theme:
 markdown_extensions:
   - admonition
   - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -36,3 +38,6 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:mermaid2.fence_mermaid_custom
+
+extra_css:
+  - stylesheets/custom.css
