@@ -263,6 +263,11 @@ Microsoft has a free [Threat Modeling tool](https://learn.microsoft.com/en-us/az
 which can be used to draw Data Flow diagrams. The tool also provides some analysis of the diagram, although in my 
 experience, that is a noisy experience and not as useful.
 
+## PyReverse
+
+If you have written Python code and you have `pylint`, did you know you also have `pyreverse`, a tool that can generate a 
+class diagram from the code? You do! Try it out!
+
 ## Miro / Draw.io / Gliffy / etc.
 
 There are a number of web-based diagram platforms that can do a wealth of different types of diagrams. 
